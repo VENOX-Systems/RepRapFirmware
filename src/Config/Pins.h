@@ -302,7 +302,11 @@ constexpr size_t NumAuxChannels = NumSerialChannels - FirstAuxChannel;
 #endif
 
 #ifndef SUPPORT_FIVEBARSCARA
-# define SUPPORT_FIVEBARSCARA	1
+# define SUPPORT_FIVEBARSCARA	0
+#endif
+
+#ifndef SUPPORT_ROBOT
+# define SUPPORT_ROBOT	        1
 #endif
 
 #ifndef SUPPORT_HANGPRINTER

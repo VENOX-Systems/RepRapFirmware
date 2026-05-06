@@ -35,6 +35,7 @@ NamedEnum(KinematicsType, uint8_t,
 	fiveBarScara,
 	rotaryDelta,
 	markForged,
+	robot,
 	unknown				// this one must be last!
 );
 

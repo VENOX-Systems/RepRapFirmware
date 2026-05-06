@@ -14,6 +14,7 @@
 #include "HangprinterKinematics.h"
 #include "PolarKinematics.h"
 #include "FiveBarScaraKinematics.h"
+#include "RobotKinematics.h"
 
 #include <Platform/RepRap.h>
 #include <Movement/Move.h>
